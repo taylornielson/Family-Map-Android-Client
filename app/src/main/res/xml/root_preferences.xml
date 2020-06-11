@@ -1,0 +1,46 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:key="preferences"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat
+        app:key="LifeStory"
+        app:title="Life Story Lines"
+        app:defaultValue="true"
+        app:summary="SHOW LIFE STORY LINES"/>
+
+    <SwitchPreferenceCompat
+        app:key="FamilyTree"
+        app:defaultValue="true"
+        app:title="Family Tree Lines"
+        app:summary="SHOW FAMILY TREE LINES"/>
+
+    <SwitchPreferenceCompat
+        app:key="Spouse"
+        app:defaultValue="true"
+        app:title="Spouse Lines"
+        app:summary="SHOW SPOUSE LINES"/>
+
+    <SwitchPreferenceCompat
+        app:key="FatherSide"
+        app:defaultValue="true"
+        app:title="Father's Side"
+        app:summary="FILTER BY FATHERS SIDE OF FAMILY"/>
+
+    <SwitchPreferenceCompat
+        app:key="MotherSide"
+        app:defaultValue="true"
+        app:title="Mother's Side"
+        app:summary="FILTER BY OTHERS SIDE OF FAMILY"/>
+
+    <SwitchPreferenceCompat
+        app:key="MaleEvents"
+        app:defaultValue="true"
+        app:title="Male Events"
+        app:summary="FILTER EVENTS BASED ON GENDER"/>
+
+    <SwitchPreferenceCompat
+        app:key="FemaleEvents"
+        app:defaultValue="true"
+        app:title="Female Events"
+        app:summary="FILTER EVENTS BASED ON GENDER"/>
+
+</PreferenceScreen>
